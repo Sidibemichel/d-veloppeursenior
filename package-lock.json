@@ -1,0 +1,110 @@
+2026-09-11T19:40:50.668Z	Initializing build environment...
+2026-09-11T19:40:50.668Z	Initializing build environment...
+2026-09-11T19:40:56.103Z	Success: Finished initializing build environment
+2026-09-11T19:40:56.985Z	Cloning seed repository...
+2026-09-11T19:40:57.347Z	Cloning from: https://github.com/Sidibemichel/d-veloppeursenior.git
+2026-09-11T19:40:59.043Z	Pushing to destination: https://github.com/Sidibemichel/d-veloppeur.git
+2026-09-11T19:41:00.491Z	Detected the following tools from environment: 
+2026-09-11T19:41:00.650Z	Executing user deploy command: npx wrangler deploy
+2026-09-11T19:41:03.412Z	npm warn exec The following package was not found and will be installed: wrangler@4.131.1
+2026-09-11T19:41:15.617Z	
+2026-09-11T19:41:15.619Z	 ⛅️ wrangler 4.131.1
+2026-09-11T19:41:15.619Z	────────────────────
+2026-09-11T19:41:15.784Z	
+2026-09-11T19:41:15.787Z	Detected Project Settings:
+2026-09-11T19:41:15.787Z	 - Worker Name: d-veloppeur
+2026-09-11T19:41:15.787Z	 - Framework: Static
+2026-09-11T19:41:15.787Z	 - Output Directory: .
+2026-09-11T19:41:15.787Z	
+2026-09-11T19:41:15.788Z	? Do you want to modify these settings?
+2026-09-11T19:41:15.788Z	🤖 Using fallback value in non-interactive context: no
+2026-09-11T19:41:15.790Z	
+2026-09-11T19:41:15.795Z	📄 Create wrangler.jsonc:
+2026-09-11T19:41:15.797Z	  {
+2026-09-11T19:41:15.797Z	    "$schema": "node_modules/wrangler/config-schema.json",
+2026-09-11T19:41:15.798Z	    "name": "d-veloppeur",
+2026-09-11T19:41:15.798Z	    "compatibility_date": "2026-09-11",
+2026-09-11T19:41:15.798Z	    "observability": {
+2026-09-11T19:41:15.798Z	      "enabled": true
+2026-09-11T19:41:15.799Z	    },
+2026-09-11T19:41:15.799Z	    "assets": {
+2026-09-11T19:41:15.799Z	      "directory": "."
+2026-09-11T19:41:15.799Z	    }
+2026-09-11T19:41:15.799Z	  }
+2026-09-11T19:41:15.802Z	
+2026-09-11T19:41:15.802Z	? Proceed with setup?
+2026-09-11T19:41:15.802Z	🤖 Using fallback value in non-interactive context: yes
+2026-09-11T19:41:15.815Z	├ Adding Wrangler files to the .gitignore file
+2026-09-11T19:41:15.818Z	│ created .gitignore file
+2026-09-11T19:41:15.820Z	│
+2026-09-11T19:41:16.750Z	🌀 Building list of assets...
+2026-09-11T19:41:16.759Z	✨ Read 75 files from the assets directory /opt/buildhome/repo
+2026-09-11T19:41:16.777Z	🌀 Starting asset upload...
+2026-09-11T19:41:18.302Z	🌀 Found 43 new or modified static assets to upload. Proceeding with upload...
+2026-09-11T19:41:18.303Z	+ /.git/COMMIT_EDITMSG
+2026-09-11T19:41:18.303Z	+ /.git/description
+2026-09-11T19:41:18.303Z	+ /.git/objects/a1/1cdba1ce5640828f129d5fa49becaa5b5879e3
+2026-09-11T19:41:18.303Z	+ /.git/logs/HEAD
+2026-09-11T19:41:18.307Z	+ /.git/config
+2026-09-11T19:41:18.307Z	+ /.wrangler/tmp/deploy-yPMORa/no-op-worker.js
+2026-09-11T19:41:18.307Z	+ /.git/hooks/applypatch-msg.sample
+2026-09-11T19:41:18.307Z	+ /.git/hooks/pre-receive.sample
+2026-09-11T19:41:18.307Z	+ /.git/index
+2026-09-11T19:41:18.308Z	+ /Index.html
+2026-09-11T19:41:18.308Z	+ /about.html
+2026-09-11T19:41:18.308Z	+ /.git/hooks/prepare-commit-msg.sample
+2026-09-11T19:41:18.308Z	+ /.git/hooks/sendemail-validate.sample
+2026-09-11T19:41:18.308Z	+ /.git/objects/26/1eeb9e9f8b2b4b0d119366dda99c6fd7d35c64
+2026-09-11T19:41:18.308Z	+ /LICENSE
+2026-09-11T19:41:18.308Z	+ /.git/HEAD
+2026-09-11T19:41:18.309Z	+ /.gitignore
+2026-09-11T19:41:18.309Z	+ /.git/objects/cb/a0527b15cdb65f7e6711823f7049b79a0deb4c
+2026-09-11T19:41:18.309Z	+ /.git/hooks/post-update.sample
+2026-09-11T19:41:18.309Z	+ /.git/info/exclude
+2026-09-11T19:41:18.310Z	+ /.git/hooks/pre-merge-commit.sample
+2026-09-11T19:41:18.310Z	+ /.git/objects/c7/633e7a8802159df18e8f8a298f58b207e0eab7
+2026-09-11T19:41:18.310Z	+ /.git/objects/9b/f9048201a2644af957b884c42728f457059187
+2026-09-11T19:41:18.310Z	+ /.git/objects/77/e750f22d4ea193fb918114ca45d3045273c961
+2026-09-11T19:41:18.310Z	+ /.git/objects/0e/57acd3753ae2359b78d5f64ab0874abf51fb7b
+2026-09-11T19:41:18.310Z	+ /contact.html
+2026-09-11T19:41:18.311Z	+ /.git/hooks/pre-commit.sample
+2026-09-11T19:41:18.312Z	+ /.git/hooks/push-to-checkout.sample
+2026-09-11T19:41:18.312Z	+ /.git/hooks/fsmonitor-watchman.sample
+2026-09-11T19:41:18.312Z	+ /.git/refs/remotes/origin/main
+2026-09-11T19:41:18.312Z	+ /README.md
+2026-09-11T19:41:18.312Z	+ /.git/logs/refs/remotes/origin/main
+2026-09-11T19:41:18.312Z	+ /wrangler.jsonc
+2026-09-11T19:41:18.312Z	+ /.git/objects/1c/f4000eed8bb4e69ac9af07487888817466dceb
+2026-09-11T19:41:18.312Z	+ /.git/hooks/pre-applypatch.sample
+2026-09-11T19:41:18.312Z	+ /.git/objects/8d/d09eae5d3049c1c2085ccb34ee04efbc3dfc04
+2026-09-11T19:41:18.313Z	+ /.wrangler/tmp/deploy-yPMORa/no-op-worker.js.map
+2026-09-11T19:41:18.313Z	+ /index.html
+2026-09-11T19:41:18.313Z	+ /.git/hooks/commit-msg.sample
+2026-09-11T19:41:18.313Z	+ /.git/hooks/pre-push.sample
+2026-09-11T19:41:18.313Z	+ /style.css
+2026-09-11T19:41:18.315Z	+ /.git/hooks/update.sample
+2026-09-11T19:41:18.315Z	+ /.git/hooks/pre-rebase.sample
+2026-09-11T19:41:19.102Z	Uploaded 15 of 43 assets
+2026-09-11T19:41:19.414Z	Uploaded 29 of 43 assets
+2026-09-11T19:41:19.421Z	Uploaded 43 of 43 assets
+2026-09-11T19:41:19.431Z	✨ Success! Uploaded 43 files (2 already uploaded) (1.13 sec)
+2026-09-11T19:41:19.432Z	
+2026-09-11T19:41:19.438Z	Total Upload: 0.33 KiB / gzip: 0.24 KiB
+2026-09-11T19:41:20.395Z	Uploaded d-veloppeur (3.81 sec)
+2026-09-11T19:41:20.915Z	▲ [WARNING] Because 'workers_dev' is not in your Wrangler file, it will be enabled for this deployment by default.
+2026-09-11T19:41:20.915Z	
+2026-09-11T19:41:20.915Z	  To override this setting, you can disable workers.dev by explicitly setting 'workers_dev = false' in your Wrangler file.
+2026-09-11T19:41:20.915Z	
+2026-09-11T19:41:20.915Z	
+2026-09-11T19:41:20.916Z	▲ [WARNING] Because your 'workers.dev' route is enabled and your 'preview_urls' setting is not in your Wrangler file, Preview URLs will be enabled for this deployment by default.
+2026-09-11T19:41:20.917Z	
+2026-09-11T19:41:20.917Z	  To override this setting, you can disable Preview URLs by explicitly setting 'preview_urls = false' in your Wrangler file.
+2026-09-11T19:41:20.917Z	
+2026-09-11T19:41:20.917Z	
+2026-09-11T19:41:20.917Z	Deployed d-veloppeur triggers (0.52 sec)
+2026-09-11T19:41:20.917Z	  https://d-veloppeur.httpssidibemichelgithubiod-veloppeursenior.workers.dev
+2026-09-11T19:41:20.917Z	Current Version ID: 5eaa4de7-99c2-4fa7-b1f4-16db9ab01b7e
+2026-09-11T19:41:20.919Z	
+2026-09-11T19:41:20.920Z	Cloudflare collects anonymous telemetry about your usage of Wrangler. Learn more at https://github.com/cloudflare/workers-sdk/tree/main/packages/wrangler/telemetry.md
+2026-09-11T19:41:21.054Z	Success: Deploy command completed
+2026-09-11T19:41:21.170Z	✨ Success! Build completed.
